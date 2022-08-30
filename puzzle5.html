@@ -9,29 +9,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
         <link rel="stylesheet" href="stylespage.css">
 
-        <title>PUZZLE 5</title>
-        <script
-        src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-        crossorigin="anonymous"></script>
-     <script>
-  function SubForm (){
-     $.ajax({
-      url:'https://api.apispreadsheets.com/data/No5amquVwtEd3awW/',
-      headers: {"accessKey": "YOUR_ACCESS_KEY", "secretKey": "YOUR_ACCESS_KEY"},
-      type:'post',
-      data:$("#myForm").serializeArray(),
-      success: function(){
-        alert("Welcome To puzzle 5 :)")
-        window.location.href="puzzle5.html";
-      },
-      error: function(){
-        alert("There was an error :(")
-      }
-  });
- 
-}
-</script>
+        <title>PUZZLE 5git </title>
     </head>
     <body>
         
@@ -131,18 +109,14 @@
                                 
                                 <img img src="assets/chbayeh.png">
                             
-                            <div class="complete_text">Welcome to #puzzle5 !</div>
+                            <div class="complete_text">Welcome to #puzzle4 !</div>
                             <div class="score_text">
-                                <form id="myForm" >
-                                    <input name="puzzle" type="hidden"  value="Puzzle5">
-                                    <label>Full Name</label>
-                                    <br/>
-                                    <input name="full_name" />
-                                    <input name="ii" type="hidden"  value="Puzzle2">
-                                  </form>
-                                  <div class="buttons">
-                                    <button onclick="SubForm()" class="start">Start Puzzle</button>
-                                  </div>
+                               <p>You have successfully entered puzzle 5.You did well on the previous task.Every ending is a beginning. We just don't know it at the time.<br><br>
+                                Best of luck!
+                               </p>
+                            </div>
+                            <div class="buttons">
+                                <button class="start">Start Puzzle</button>
                             </div>
                         </div>
                         
@@ -151,6 +125,6 @@
             </section>
             
             </main>
-        
+        <script src="index.js"></script>
     </body>
 </html>
