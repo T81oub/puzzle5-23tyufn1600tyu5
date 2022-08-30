@@ -5,7 +5,7 @@ const thmasInputText = document.querySelector('#thmas-input-text');
 thmasButton.addEventListener('click', clickButton);
 
 function clickButton() {
-var URL = "https://t81oub.github.io/end-67" + thmasInputText.value + "8HFUEO9749/"; 
+var URL = "https://t81oub.github.io/end-67" + thmasInputText.value + "8HFUEO9749/";
 
 var win = window.open(URL, "_blank");
 }
